@@ -1,3 +1,26 @@
+# zero knowledge puzzles solutions
+
+A mirror of RareSkills puzzles with solutions. 
+
+## Added .devcontainer
+Added .devcontainer with a rust+node container for circom. Just open in vscode and run `npm install`
+
+## WIP
+
+- [X] Addition
+- [X] Equality
+- [X] NotEqual
+- [X] Poseidon
+- [X] ForLoop
+- [X] Power
+- [X] Range
+- [X] Salt
+- [ ] QuadraticEquation
+- [ ] Compile
+- [ ] Sudoku
+- [ ] Sujiko
+
+# Original docs
 # zero knowledge puzzles
 
 Zero knowledge puzzles to learn writing circuits in [circom](https://docs.circom.io/) lang.
