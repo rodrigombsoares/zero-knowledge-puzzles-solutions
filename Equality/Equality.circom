@@ -7,7 +7,10 @@ template Equality() {
    // Your Code Here..
    signal input a[3];
    signal output c;
-   c <-- a[0]==a[1]&&a[0]==a[2];
+   // res operation is not R1C, so we cannot use <== directly
+   signal res;
+   res <-- a[0]==a[1]&&a[0]==a[2];
+   c <== res;
 }
 
 component main = Equality();
